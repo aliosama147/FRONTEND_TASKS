@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px red solid; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 2000px;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.nav1 a{
+    text-decoration: none;
+}
+.nav1{
+    width: 100%;
+    height: 80px;
+    background-color: #ff6f888c;
+    color: white;
+}
+.nav1 .help{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.nav1 .links{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.nav1 .help a , .nav1 .links i{
+    padding-left: 20px;
+    color: white;
+}
+.head1{
+    width: 100%;
+    height: 889px;
+    background-image: url(img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.head1 .extnav1{
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: -3%;
+    left: calc((100% - 70%)/2);
+    border-radius: 50px;
+}
+.extnav1 a{
+    position: relative;
+    top: 25%;
+    margin: 0px 30px;
+    color: black;
+}
+.extnav1 .icream{
+    font-size: 45px;
+    position: relative;
+    top: -1%;
+    left: 8%;
+    color: #ff6f888c;
+}
+.extnav1 .icream::first-letter{
+    color: lightblue;
+}
+.head1 .text1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: xx-large;
+}
+.head1 .text1 h3{
+    text-transform: uppercase;
+}
+.head1 .text1 h1{
+    text-transform: capitalize;
+}
+.head1 .text1 button{
+    color: white;
+    background-color: #ff6f888c;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ff6f888c;
+}
+.about{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+.about .line{
+    width: 60px;
+    height: 7px;
+    background-color: #ff6f888c;
+    margin-bottom: 10px;
+    position: relative;
+    left: 48%;
+}
+.about h2{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box1{
+    width: calc((100% - 6%)/3);
+    margin-left: 30px;
+    height: 77%;
+}
+#hd{
+    background-image: url(img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about .box1 h3{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about button{
+    color: white;
+    background-color: #ff6f888c;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ff6f888c;  
+    margin-top: 20px; 
+}
+.about ul li{
+    margin-bottom: 20px;
+}
+.order{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+.order .vid{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/promotion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.order .discrption{
+    width: 50%;
+    height: 100%;
+    background-color: #ff6f888c;
+}
+.order .discrption h2{
+    color: lightblue;
+    background-color: white;
+    padding: 16px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 9%;
+    text-align: center;
+    position: relative;
+    left: 45%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.order .discrption h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.order .discrption p{
+    margin-bottom: 20px;
+    color: white;
+    font-size: x-large;
+    margin-left: 20px;
+}
+.order .discrption button{
+    color: white;
+    background-color: lightblue;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    text-align: center;
+    position: relative;
+    left: 45%;
+}
+.best{
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+}
+.line2{
+    width: 60px;
+    height: 7px;
+    background-color: #ff6f888c;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.best .box1{
+    text-align: center;
+    background-color: white;
+    text-transform: capitalize;
+    height: 330px;
+}
+.best .box1 img{
+    border-radius: 50%;
+    border: 20px solid white;
+    position: relative;
+    margin-top: -176px;
+    top: -12%;
+}
+.best h1{
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+.best .box1 .circle{
+    width: 170px;
+    height: 150px;
+    background-color: #ff6f888c;
+    border-radius: 50%;
+    border: 1px solid #ff6f888c;
+    position: relative;
+    left: 32%;
+}
+.best .box1 h3{
+    margin-bottom: 20px;
+    font-size: larger;
+}
+.best .box1 p{
+    margin-bottom: 20px;
+}
+.best .box1 a{
+    color: lightblue;
+    text-decoration: underline;
+}
+.example{
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    margin-top: 200px;
+}
+.example .line3{
+    width: 60px;
+    height: 7px;
+    background-color: #ff6f888c;
+    margin-bottom: 10px;
+    position: relative;
+    left: 48%;
+}
+.example h1{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.example .box2 , .example .box3{
+    width: calc(100% / 3);
+    height: 350px;
+}
+#p1{
+    background-image: url(img/portfolio-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p2{
+    background-image: url(img/portfolio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p3{
+    background-image: url(img/portfolio-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p4{
+    background-image: url(img/portfolio-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p5{
+    background-image: url(img/portfolio-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p6{
+    background-image: url(img/portfolio-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.example .sqr{
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 30px auto;
+}

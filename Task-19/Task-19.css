@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 1000px;  
+}
+.main::before{
+    width:0px;
+    height: 0px;
+    content: "";
+    background-color: green;
+    position: absolute;
+    left: 101px;
+    bottom: -139px;
+    transition: width 3s ease;
+}
+.main::after{
+    width:0px;
+    height: 0px;
+    content: "";
+    background-color: green;
+    position: absolute;
+    right: 99px;
+    bottom: -139px;
+    transition: width 3s ease;
+}
+.main:hover::before{
+    width:  calc(1319px / 2);
+    height: 79px;
+}
+.main:hover::after{
+    width:  calc(1319px / 2);
+    height: 79px;
+}

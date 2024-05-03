@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 10000px; */
+}
+.bigarea{
+    width: 100%;
+    height: 500px;
+    background-image: url(Img/ablutbenner-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 1px;
+}
+.header{
+    position: relative;
+    top: calc(-77px / 2);
+}
+.service , .stat .container{
+    background-color: #fbeeec;
+}
+.box{
+    width: 30%;
+    background-color: white;
+    padding: 50px 25px;
+}
+.upline{
+    width: 100px;
+    height: 3px;
+}
+.downline{
+    width: 50px;
+    height: 2px;
+}
+.footer{
+    background-color: #050129;
+}
+.foot{
+    width: 20%;
+}
+.home::before{
+    width: 0px;
+    height: 3px;
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 18px;
+    top: 50px;
+    transition: all 0.5s ease;
+}
+.services::before{
+    width: 0px;
+    height: 3px;
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    top: 34px;
+    transition: all 0.5s ease;
+}
+.company::before{
+    width: 0px;
+    height: 3px;
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 34px;
+    transition: all 0.5s ease;
+}
+.ITsolutions::before{
+    width: 0px;
+    height: 3px;
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 263px;
+    top: 50px;
+    transition: all 0.5s ease;
+}
+.blog::before{
+    width: 0px;
+    height: 3px;
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 34px;
+    transition: all 0.5s ease; 
+}
+.contact::before{
+    width: 0px;
+    height: 3px;
+    content: "";
+    background-color: white;
+    position: absolute;
+    left: 420px;
+    top: 50px;
+    transition: all 0.5s ease;
+}
+li:hover .home::before{
+    width: 48px;
+}
+li:hover .services::before{
+    width: 70px;
+}
+li:hover .company::before{
+    width: 80px;
+}
+li:hover .ITsolutions::before{
+    width: 78px;
+}
+li:hover .blog::before{
+    width: 57px;
+}
+li:hover .contact::before{
+    width: 60px;
+}
+.box{
+    position: relative;
+}
+.box::before{
+    width: 0%;
+    height: 5px;
+    content: "";
+    background-color: #dc3545;
+    position: absolute;
+    border-radius: 4px;
+    top: 98%;
+    left: 0%;
+    transition: all 0.7s ease;
+}
+.box:hover{
+    box-shadow: 0px 0px 20px 0px #09090994;
+    transition: all 0.5s ease;
+}
+.box:hover::before{
+    width: 100%;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 5000px;   */
+}
+ul li:nth-child(odd){
+    background-color: green;
+}
+ul li:nth-child(even){
+    background-color: yellowgreen;
+}
+.card ul li{
+    background-color: white;
+}
+.card1::before{
+    content: "";
+    width: 287px;
+    height: 191px;
+    background-color: #ffff0059;
+    position: absolute;
+    left: 0%;
+    display: none;
+}
+.card1:hover::before{
+    display: block;
+}
+.card1:hover .card-body{
+    background-color: yellow;
+}
+.card2::before{
+    content: "";
+    width: 287px;
+    height: 191px;
+    background-color: #ffff0059;
+    position: absolute;
+    left: 0%;
+    display: none;
+}
+.card2:hover::before{
+    display: block;
+}
+.card2:hover .card-body{
+    background-color: yellow;
+}
+.card3::before{
+    content: "";
+    width: 287px;
+    height: 191px;
+    background-color: #ffff0059;
+    position: absolute;
+    left: 0%;
+    display: none;
+}
+.card3:hover::before{
+    display: block;
+}
+.card3:hover .card-body{
+    background-color: yellow;
+}

@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px red solid; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 5000px;  */
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px 30px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.links a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.head1{
+    width: 100%;
+    height: 350px;
+    background-image: url(images/products-page-heading.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+.head1 h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 10px;
+}
+.head1 h3{
+    font-family: 'Sriracha', cursive;
+    font-weight: lighter;
+    color: white;
+}
+.menlatest{
+    width: 100%;
+    margin-top: 120px;
+    text-transform: capitalize;
+}
+.menlatest .h{
+    text-align: center;
+}
+.menlatest h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+.menlatest h3{
+    font-family: 'Sriracha', cursive;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.menlatest img{
+    width: 4%;
+}
+.menlatest .card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menlatest .card1,.menlatest .card2,.menlatest .card3,.menlatest .card4,.menlatest .card5,.menlatest .card6,.menlatest .card7,.menlatest .card8,.menlatest .card9{
+    width: 20%;
+    height: calc(500px - 82.4px);
+}
+.menlatest .card1:hover .bgimg i{
+    display: block;
+}
+.menlatest .card2:hover .bgimg i{
+    display: block;
+}
+.menlatest .card3:hover .bgimg i{
+    display: block;
+}
+.menlatest .card4:hover .bgimg i{
+    display: block;
+}
+.menlatest .card5:hover .bgimg i{
+    display: block;
+}
+.menlatest .card6:hover .bgimg i{
+    display: block;
+}
+.menlatest .card7:hover .bgimg i{
+    display: block;
+}
+.menlatest .card8:hover .bgimg i{
+    display: block;
+}
+.menlatest .card9:hover .bgimg i{
+    display: block;
+}
+.menlatest .bgimg i{
+    font-size: large;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+.menlatest .card1 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/men-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card2 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/men-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card3 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/men-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card4 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/women-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card5 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/women-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card6 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/women-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card7 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/kid-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card8 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/kid-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .card9 .bgimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/kid-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.menlatest .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Sriracha', cursive;
+    font-size: smaller;
+}
+.menlatest .card  h3{
+    margin: 0px;
+    color: black;
+}
+.pages{
+    text-align: center;
+    margin-top: 50px;
+}
+.pages i{
+    margin-left: 20px;
+}
+.pages i{
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px black solid;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    text-transform: capitalize;
+}
+.footer .footer1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .footer1 ul li{
+    margin-top: 20px;
+    font-family: 'Sriracha', cursive;
+    font-weight: 100;
+    font-size: smaller;
+}
+.footer .footer1 h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: large;
+}
+.footer a{
+    text-decoration: underline;
+    color: white;
+}
+.footer .footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+span{
+    color: blue;
+    text-decoration: underline;
+}
+.footer .footer2 .links i{
+    margin-left: 10px;
+    font-size: larger;
+    margin-top: 20px;
+}
